@@ -130,4 +130,23 @@ npm start
 
    - Automated data refresh pipeline
 
+## 🌐 Live Deployment
+**Frontend (Vercel)**
+
+Vercel
+URL: https://mindhive-assessment-wong-horng-woei-pbcw6bo4l.vercel.app/
+
+
+**Backend (Render)**
+
+Render
+Base URL: https://mindhive-assessment-wonghorngwoei.onrender.com
+
+
+API Endpoints:
+
+GET /stores - List all McDonald's stores
+
+GET /chatbot?query=text - Chatbot interface
+
 
