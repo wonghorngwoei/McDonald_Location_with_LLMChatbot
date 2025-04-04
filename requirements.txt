@@ -2,9 +2,6 @@
 fastapi
 uvicorn
 
-# Database
-sqlite3
-
 # HTTP Requests
 requests
 
