@@ -19,7 +19,9 @@ const McDonaldsMap = () => {
 
   // Fetch store data on component mount
   useEffect(() => {
-    fetch(`${API_BASE_URL}/stores`)
+    fetch(`${API_BASE_URL}/stores`, {
+      credentials: 'include'  // Required if using cookies/auth
+    })
       .then(response => response.json())
       .then(data => {
         if (data.stores) {
