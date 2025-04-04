@@ -1,7 +1,5 @@
 # MindHive Technical Assessment completed by Wong Horng Woei
 
-![Project Banner](https://via.placeholder.com/800x200?text=McDonald's+Outlet+Locator+with+Chatbot)
-
 A comprehensive system to locate McDonald's outlets in Kuala Lumpur, Malaysia with AI-powered store information queries.
 
 ## ✨ Features
@@ -48,8 +46,6 @@ venv\Scripts\activate     # Windows
 # Install dependencies
 pip install -r requirements.txt
 
-# Set up environment variables
-cp .env.example .env
 # Edit .env with your API keys
 
 3. **Set up frontend**

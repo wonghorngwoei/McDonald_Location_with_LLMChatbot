@@ -1,0 +1,19 @@
+# Core Packages
+fastapi
+uvicorn
+
+# Database
+sqlite3
+
+# HTTP Requests
+requests
+
+# Environment Management
+python-dotenv
+
+# AI/ML
+together
+
+# Data Processing (optional but commonly used)
+pandas
+numpy
