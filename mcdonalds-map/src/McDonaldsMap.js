@@ -1,6 +1,8 @@
 import React, { useEffect, useState, useRef } from "react";
 import { GoogleMap, LoadScript, Marker, Circle, InfoWindow } from "@react-google-maps/api";
 
+const API_BASE_URL = process.env.REACT_APP_API_URL || "https://mindhive-assessment-wonghorngwoei.onrender.com";
+
 const GOOGLE_API_KEY = process.env.REACT_APP_GOOGLE_MAPS_API_KEY;
 const mapContainerStyle = { width: "100%", height: "600px" };
 const center = { lat: 3.139, lng: 101.6869 };
@@ -17,7 +19,7 @@ const McDonaldsMap = () => {
 
   // Fetch store data on component mount
   useEffect(() => {
-    fetch("http://127.0.0.1:8000/stores")
+    fetch(`${API_BASE_URL}/stores`)
       .then(response => response.json())
       .then(data => {
         if (data.stores) {
@@ -129,7 +131,7 @@ const McDonaldsMap = () => {
     try {
       // Send query to backend
       const response = await fetch(
-        `http://127.0.0.1:8000/chatbot/?query=${encodeURIComponent(query)}`
+        `${API_BASE_URL}/chatbot/?query=${encodeURIComponent(query)}`
       );
       
       if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);

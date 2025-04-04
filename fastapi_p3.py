@@ -12,10 +12,16 @@ load_dotenv()
 # Initialize FastAPI App
 app = FastAPI()
 
+origins = [
+    "https://mindhive-assessment-wong-horng-woei.vercel.app",  # Your Vercel URL
+    "http://localhost:3000",               # For local development
+    "http://127.0.0.1:8000"               # Optional for local API calls
+]
+
 # Allow CORS for frontend access
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # Allow all origins (change to specific origin in production)
+    allow_origins=origins,  # Allow all origins (change to specific origin in production)
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
