@@ -44,7 +44,11 @@ A comprehensive system to locate McDonald's outlets in Kuala Lumpur, Malaysia wi
 
 
 python -m venv venv
+
+
 source venv/bin/activate  # Linux/Mac
+
+
 venv\Scripts\activate     # Windows
 
 **Install dependencies**
