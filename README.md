@@ -38,18 +38,28 @@ A comprehensive system to locate McDonald's outlets in Kuala Lumpur, Malaysia wi
    cd Mindhive_assessment_WongHorngWoei
 
 2. **Set up backend**
-***Create and activate virtual environment***
+
+
+**Create and activate virtual environment**
+
+
 python -m venv venv
 source venv/bin/activate  # Linux/Mac
 venv\Scripts\activate     # Windows
 
-***Install dependencies***
+**Install dependencies**
+
+
 pip install -r requirements.txt
 
-***Edit .env with your API keys***
+**Edit .env with your API keys**
 
 3. **Set up frontend**
+
+
 cd mcdonalds-map
+
+
 npm install
 
 ### Running the Application
