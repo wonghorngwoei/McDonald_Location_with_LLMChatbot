@@ -131,6 +131,7 @@ npm start
    - Automated data refresh pipeline
 
 ## 🌐 Live Deployment
+***When using website, backend may delay for 50 seconds or more due to free services (will spin down with inactivity)***
 **Frontend (Vercel)**
 
 Vercel
