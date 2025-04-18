@@ -1,4 +1,4 @@
-# MindHive Technical Assessment completed by Wong Horng Woei
+# McDonald Location Finder with LLM Chatbot
 
 A comprehensive system to locate McDonald's outlets in Kuala Lumpur, Malaysia with AI-powered store information queries.
 
@@ -34,8 +34,8 @@ A comprehensive system to locate McDonald's outlets in Kuala Lumpur, Malaysia wi
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/wonghorngwoei/Mindhive_assessment_WongHorngWoei.git
-   cd Mindhive_assessment_WongHorngWoei
+   git clone https://github.com/wonghorngwoei/McDonald_Location_with_LLMChatbot.git
+   cd {yourfilelocation}
 
 2. **Set up backend**
 
